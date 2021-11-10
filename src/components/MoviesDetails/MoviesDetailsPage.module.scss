@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+
+.content {
+  margin-left: 30px;
+  flex-direction: column;
+}
+.img {
+  max-width: 20%;
+  object-fit: contain;
+}
+
+.genre:not(:last-child) {
+  margin-right: 20px;
+}
+
+.score {
+  margin-right: 10px;
+}

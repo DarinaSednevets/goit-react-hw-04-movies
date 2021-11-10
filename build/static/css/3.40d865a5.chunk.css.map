@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/HomePageList/HomePageList.module.scss"],"names":[],"mappings":"AAAA,2BACE,gBAAiB,CACjB,aAAsB,CACvB,gCAEC,aAAwB","file":"3.40d865a5.chunk.css","sourcesContent":[".title {\n  margin-left: 20px;\n  color: rgb(5, 88, 197);\n}\n.moviesList {\n  color: rgb(133, 51, 108);\n}\n"]}

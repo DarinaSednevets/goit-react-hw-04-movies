@@ -1,0 +1,22 @@
+.navContainer {
+  border-bottom: 2px solid rgb(255, 9, 157);
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.link {
+  font-size: large;
+  font-weight: 400;
+  color: rgb(128, 128, 128);
+}
+
+.activeLink {
+  color: #8539b1;
+}

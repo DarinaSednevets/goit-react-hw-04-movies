@@ -16,6 +16,7 @@
     "react-loader-spinner": "^4.0.0",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-toastify": "^8.1.0",
     "shortid": "^2.2.16",
     "web-vitals": "^1.1.2"
   },
@@ -25,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@pnotify/core": "^5.2.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2"
